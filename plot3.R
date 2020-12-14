@@ -1,7 +1,7 @@
-#The file has been downloaded in the current working directory.After unzipping it is saved as a text file.
+#Read the data
 hpc<-read.csv("household_power_consumption.txt",sep=";",header=TRUE)
 
-#Take data only for the 1st and 2nd Feb 2007.
+#Subset the data
 subsetHpc<-subset(hpc,Date=="1/2/2007"| Date=="2/2/2007")
 
 #Convert the sub_meterings columns to  numeric vectors. 
