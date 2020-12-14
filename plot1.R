@@ -1,6 +1,4 @@
 #Read the data
-dataFile <- "household_power_consumption.txt"
-
 hpc <- read.table("household_power_consumption.txt",
                   header=TRUE,
                   sep=";",
